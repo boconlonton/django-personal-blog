@@ -1,8 +1,8 @@
-# Product Hunt project
+# Personal blog project
 
 ### Step 1: Clone the project
 
-``` git clone https://github.com/boconlonton/django-producthunt.git  ```
+``` git clone https://github.com/boconlonton/django-personal-blog.git  ```
 
 ### Step 2: Setup virtual environment
 
