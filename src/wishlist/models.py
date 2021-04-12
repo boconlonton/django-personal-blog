@@ -11,6 +11,7 @@ class Item(models.Model):
     note = models.TextField()
     url = models.TextField()
     image = models.ImageField(upload_to='images/')
+    is_selected = models.BooleanField(default=False)
     created_at = models.DateTimeField()
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
 
