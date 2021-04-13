@@ -6,6 +6,6 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.wish, name='wish'),
+    path('', views.wlist, name='wishlist'),
 ]
 

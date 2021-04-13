@@ -17,3 +17,6 @@ class Item(models.Model):
 
     def __str__(self):
         return f'{self.name[:20]}'
+
+    def summary(self):
+        return f'{self.description[:50]}'
